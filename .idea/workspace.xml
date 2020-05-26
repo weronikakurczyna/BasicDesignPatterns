@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d19ed52-846c-40bb-a94c-82a4db8a6a2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Decorator/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ParagraphTextDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/PlainText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/TextDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/CompositePatternDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,20 @@
       <recent name="Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass">
+  <component name="RunManager" selected="Application.CompositePatternDemo">
+    <configuration name="CompositePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Composite.CompositePatternDemo" />
+      <module name="BasicDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="BasicDesignPatterns" />
@@ -77,9 +85,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MainClass" />
+      <item itemvalue="Application.CompositePatternDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompositePatternDemo" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Main" />
       </list>
@@ -95,7 +105,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588885978262</updated>
-      <workItem from="1588885981406" duration="6175000" />
+      <workItem from="1588885981406" duration="6256000" />
+      <workItem from="1590492034088" duration="405000" />
+      <workItem from="1590492664881" duration="8835000" />
     </task>
     <servers />
   </component>
@@ -103,29 +115,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1588891986457">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1590494946531">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588891986457" />
-    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1588892098029">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590494946531" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1590514105208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588892098029" />
-    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1588892098028">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590514105208" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1590514105208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588892098028" />
-    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1588892098027">
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590514105208" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1590514105208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588892098027" />
-    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1588892098028">
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590514105208" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1590514105208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588892098028" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590514105208" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1590501341502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590501341502" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1590501341502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590501341502" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1590501341502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590501341502" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1590501341502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590501341502" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1588886668778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588886668778" />
+    <state x="849" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1590492697165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="849" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590492697165" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1590496228010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590496228010" />
   </component>
 </project>
