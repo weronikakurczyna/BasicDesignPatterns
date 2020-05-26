@@ -44,20 +44,6 @@ public class CompositePatternDemo {
         subsection31.add(nextSubsection311);
         subsection32.add(nextSubsection321);
 
-        System.out.println("Książka: " + book.getName());
-
-        int i = 1, j = 1, k = 1;
-        for (Book sections : book.getSubsections()) {
-            System.out.println(i + ". " + sections);
-            for (Book subsections : sections.getSubsections()) {
-                System.out.println("\t" + i + "." + j + ". " + subsections);
-                for (Book nextSubsections : subsections.getSubsections()) {
-                    System.out.println("\t\t" + i + "." + j + "." + k + ". " + nextSubsections);
-                    k++;
-                }
-                j++; k = 1;
-            }
-            i++; j = 1;
-        }
+        book.print();
     }
 }

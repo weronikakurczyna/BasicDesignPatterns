@@ -4,12 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Book {
-    private String name;
+    private String title;
     private List<Book> subsections;
 
     public Book(String name) {
-        this.name = name;
+        this.title = name;
         subsections = new ArrayList<Book>();
+    }
+
+    public String getTitle() {
+        return title;
     }
 
     public void add(Book section) {
@@ -24,11 +28,26 @@ public class Book {
         return subsections;
     }
 
-    public String getName() {
-        return name;
+    public String toString() {
+        return title;
     }
 
-    public String toString() {
-        return name;
+    public void print() {
+        System.out.println("Książka: " + title);
+        int i = 1, j = 1, k = 1;
+        for (Book sections : getSubsections()) {
+            System.out.println(i + ". " + sections);
+            for (Book subsections : sections.getSubsections()) {
+                System.out.println("\t" + i + "." + j + ". " + subsections);
+                for (Book nextSubsections : subsections.getSubsections()) {
+                    System.out.println("\t\t" + i + "." + j + "." + k + ". " + nextSubsections);
+                    k++;
+                }
+                j++;
+                k = 1;
+            }
+            i++;
+            j = 1;
+        }
     }
 }
