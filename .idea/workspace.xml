@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d19ed52-846c-40bb-a94c-82a4db8a6a2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Compositev2/BookAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compositev2/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compositev2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compositev2/Section.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composite/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/CompositePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composite/CompositePatternDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +48,26 @@
       <recent name="Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompositePatternDemo">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="CompositePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Composite.CompositePatternDemo" />
       <module name="BasicDesignPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Compositev2.Main" />
+      <module name="BasicDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Compositev2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,9 +102,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.CompositePatternDemo" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.CompositePatternDemo" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Main" />
@@ -112,7 +129,9 @@
       <workItem from="1590515399971" duration="1249000" />
       <workItem from="1590519469642" duration="882000" />
       <workItem from="1590520446957" duration="1553000" />
-      <workItem from="1590530819102" duration="2546000" />
+      <workItem from="1590530819102" duration="2900000" />
+      <workItem from="1590778016546" duration="440000" />
+      <workItem from="1590779349945" duration="8795000" />
     </task>
     <servers />
   </component>
@@ -120,61 +139,95 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1590494946531">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1590786949361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590494946531" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590786949361" />
+    <state x="950" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590781447861">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="950" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1590781447861" />
     <state x="423" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590533439527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="423" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1590533439527" />
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1590788360840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590788360840" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1590516833346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590516833346" />
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1590533457641">
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom" timestamp="1590788268230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590533457641" />
-    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1590533457641">
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590788268230" />
+    <state width="1493" height="185" key="GridCell.Tab.0.center" timestamp="1590788268230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590533457641" />
-    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1590533457641">
+    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590788268230" />
+    <state width="1493" height="185" key="GridCell.Tab.0.left" timestamp="1590788268230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590533457641" />
-    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1590533457641">
+    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590788268230" />
+    <state width="1493" height="185" key="GridCell.Tab.0.right" timestamp="1590788268230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590533457641" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1590533144891">
+    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590788268230" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1590533721684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590533144891" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1590533144891">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590533721684" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1590533721684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590533144891" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1590533144891">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590533721684" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1590533721684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590533144891" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1590533144891">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590533721684" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1590533721684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590533144891" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590533721684" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1588886668778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588886668778" />
-    <state x="849" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1590530819458">
+    <state x="849" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1590779350836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="849" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590530819458" />
+    <state x="849" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590779350836" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1590496228010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590496228010" />
+    <state x="809" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1590781349791">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="809" y="72" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590781349791" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Composite/CompositePatternDemo.java</url>
+          <line>3</line>
+          <properties class="Composite.CompositePatternDemo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Compositev2/Main.java</url>
+          <line>3</line>
+          <properties class="Compositev2.Main" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
