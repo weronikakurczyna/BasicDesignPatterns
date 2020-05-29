@@ -1,14 +1,10 @@
 package Compositev2;
 
-import java.util.ArrayList;
-
 public class Section extends BookAbstract {
 
     public Section(String title) {
-        this.title = title;
+        super(title);
     }
-
-    private ArrayList<BookAbstract> sections = new ArrayList<BookAbstract>();
 
     @Override
     public void add(BookAbstract b) {
@@ -30,7 +26,5 @@ public class Section extends BookAbstract {
             ba.printBook(tab, parentNumber, currentNumber);
             currentNumber++;
         }
-
-
     }
 }

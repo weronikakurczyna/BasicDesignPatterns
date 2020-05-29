@@ -6,9 +6,19 @@ abstract class BookAbstract {
 
     protected String title;
 
+    public BookAbstract(String title) {
+        this.title = title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public String getTitle() {
         return title;
     }
+
+    protected ArrayList<BookAbstract> sections = new ArrayList<BookAbstract>();
 
     public abstract void add(BookAbstract b);
 
