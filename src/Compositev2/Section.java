@@ -8,15 +8,7 @@ public class Section extends BookAbstract {
         this.title = title;
     }
 
-    @Override
-    protected String getBookTitle() {
-        return title;
-    }
-
-    @Override
-    public ArrayList<BookAbstract> getSections() {
-        return null;
-    }
+    private ArrayList<BookAbstract> sections = new ArrayList<BookAbstract>();
 
     @Override
     public void add(BookAbstract b) {
@@ -28,4 +20,17 @@ public class Section extends BookAbstract {
 
     }
 
+    @Override
+    public void printBook(String tab, String parentNumber, int currentNumber) {
+        System.out.println(tab + parentNumber + currentNumber + ". " + title);
+        tab = "\t" + tab;
+        parentNumber += currentNumber;
+        currentNumber = 1;
+        for (BookAbstract ba : sections) {
+            ba.printBook(tab, parentNumber, currentNumber);
+            currentNumber++;
+        }
+
+
+    }
 }

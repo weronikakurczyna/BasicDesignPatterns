@@ -28,6 +28,6 @@ public class Main {
         section3.add(subsection31);
         subsection31.add(new Section("Zdania twierdzące"));
 
-        book.print();
+        book.printMain("", "", 1);
     }
 }
