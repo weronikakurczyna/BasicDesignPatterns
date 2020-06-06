@@ -11,6 +11,5 @@ public class StrongTextDecorator extends TextDecorator {
         System.out.println("<strong>");
         super.write();
         System.out.println("</strong>");
-
     }
 }

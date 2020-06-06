@@ -11,6 +11,5 @@ public class ParagraphTextDecorator extends TextDecorator {
         System.out.println("<p>");
         super.write();
         System.out.println("</p>");
-
     }
 }
