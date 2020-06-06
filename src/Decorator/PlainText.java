@@ -1,8 +1,9 @@
 package Decorator;
 
 public class PlainText extends Text {
+
     @Override
     public void write() {
-        System.out.println(text);
+        System.out.println("Tekst");
     }
 }

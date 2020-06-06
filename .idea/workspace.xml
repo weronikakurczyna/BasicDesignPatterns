@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d19ed52-846c-40bb-a94c-82a4db8a6a2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Decorator/StrongTextDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compositev2/BookAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compositev2/BookAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compositev2/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compositev2/Composite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compositev2/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compositev2/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/ParagraphTextDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/ParagraphTextDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/PlainText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/PlainText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/TextDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/TextDecorator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
       <recent name="Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="CompositePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Composite.CompositePatternDemo" />
       <module name="BasicDesignPatterns" />
@@ -105,9 +108,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.CompositePatternDemo" />
-        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -130,7 +133,10 @@
       <workItem from="1590520446957" duration="1553000" />
       <workItem from="1590530819102" duration="2900000" />
       <workItem from="1590778016546" duration="440000" />
-      <workItem from="1590779349945" duration="14132000" />
+      <workItem from="1590779349945" duration="14732000" />
+      <workItem from="1590828252731" duration="31000" />
+      <workItem from="1590832677799" duration="204000" />
+      <workItem from="1591446059590" duration="5418000" />
     </task>
     <servers />
   </component>
@@ -138,10 +144,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1590792783215">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1591449761350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590792783215" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591449761350" />
     <state x="950" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590781447861">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -158,50 +164,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590516833346" />
-    <state width="1493" height="185" key="GridCell.Tab.0.bottom" timestamp="1590793580653">
+    <state width="723" height="260" key="GridCell.Tab.0.bottom" timestamp="1591451489079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590793580653" />
-    <state width="1493" height="185" key="GridCell.Tab.0.center" timestamp="1590793580653">
+    <state width="723" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591451489079" />
+    <state width="723" height="260" key="GridCell.Tab.0.center" timestamp="1591451489078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590793580653" />
-    <state width="1493" height="185" key="GridCell.Tab.0.left" timestamp="1590793580653">
+    <state width="723" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591451489078" />
+    <state width="723" height="260" key="GridCell.Tab.0.left" timestamp="1591451489078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590793580653" />
-    <state width="1493" height="185" key="GridCell.Tab.0.right" timestamp="1590793580653">
+    <state width="723" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591451489078" />
+    <state width="723" height="260" key="GridCell.Tab.0.right" timestamp="1591451489079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590793580653" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1590792313400">
+    <state width="723" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591451489079" />
+    <state width="723" height="260" key="GridCell.Tab.1.bottom" timestamp="1591451489388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590792313400" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1590792313400">
+    <state width="723" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591451489388" />
+    <state width="723" height="260" key="GridCell.Tab.1.center" timestamp="1591451489387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590792313400" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1590792313400">
+    <state width="723" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591451489387" />
+    <state width="723" height="260" key="GridCell.Tab.1.left" timestamp="1591451489387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590792313400" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1590792313400">
+    <state width="723" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591451489387" />
+    <state width="723" height="260" key="GridCell.Tab.1.right" timestamp="1591451489387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590792313400" />
+    <state width="723" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591451489387" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1588886668778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588886668778" />
-    <state x="849" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1590779350836">
+    <state x="849" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591446246340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="849" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590779350836" />
-    <state x="511" y="41" key="refactoring.ChangeSignatureDialog" timestamp="1590791038926">
+    <state x="849" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591446246340" />
+    <state x="511" y="41" key="refactoring.ChangeSignatureDialog" timestamp="1591447886196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="511" y="41" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1590791038926" />
+    <state x="511" y="41" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1591447886196" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1590496228010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -215,12 +221,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Compositev2/Main.java</url>
-          <line>3</line>
-          <properties class="Compositev2.Main" method="main">
+          <url>file://$PROJECT_DIR$/src/Decorator/PlainText.java</url>
+          <line>5</line>
+          <properties class="Decorator.PlainText" method="write">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Decorator/MainClass.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

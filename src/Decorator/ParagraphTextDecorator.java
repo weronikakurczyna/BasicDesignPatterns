@@ -6,16 +6,11 @@ public class ParagraphTextDecorator extends TextDecorator {
         super(decoratedText);
     }
 
-    public String addParagraph() {
-        return "<p>" + decoratedText.getText() + "</p>";
-    }
-
     @Override
     public void write() {
-        setText(addParagraph());
-        decoratedText.write();
+        System.out.println("<p>");
+        super.write();
+        System.out.println("</p>");
+
     }
-
-
-
 }
