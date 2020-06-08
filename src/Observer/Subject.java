@@ -22,5 +22,6 @@ class Subject {
         for(Observer o : observers) {
             o.update(Subject.this);
         }
+        System.out.println();
     }
 }

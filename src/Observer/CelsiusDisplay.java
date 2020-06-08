@@ -2,11 +2,9 @@ package Observer;
 
 public class CelsiusDisplay extends Display {
 
-    private TemperatureSensor subject = null;
-
     @Override
     public void print() {
-        System.out.println("Temperatura: " + temperature + "\u2103");
+        System.out.println("Temperatura: " + temperature + " \u2103");
     }
 
     CelsiusDisplay(TemperatureSensor s) {
@@ -16,9 +14,7 @@ public class CelsiusDisplay extends Display {
     @Override
     public void update(Subject s) {
         if (s == subject) {
-            System.out.println("Temperatura - stopnie Celsjusza: " + subject.getTemperatureCelsius());
+            System.out.println("Temperatura: " + subject.getTemperatureCelsius() + " \u2103");
         }
     }
-
-
 }
