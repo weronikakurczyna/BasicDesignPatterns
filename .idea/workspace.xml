@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d19ed52-846c-40bb-a94c-82a4db8a6a2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Factory/EmphasizedText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/MarkedText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/ParagraphedText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/StrongText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/TextFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/CreateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/DefaultSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/SortingMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,26 +47,16 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass (2)">
-    <configuration name="CompositePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Composite.CompositePatternDemo" />
-      <module name="BasicDesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainClass (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Compositev2.Main" />
       <module name="BasicDesignPatterns" />
@@ -118,20 +109,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.MainClass" />
+      <module name="BasicDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainClass" />
-      <item itemvalue="Application.CompositePatternDemo" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.MainClass (1)" />
       <item itemvalue="Application.MainClass (2)" />
+      <item itemvalue="Application.MainClass (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass (3)" />
         <item itemvalue="Application.MainClass (2)" />
         <item itemvalue="Application.MainClass (1)" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.CompositePatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +166,11 @@
       <workItem from="1591528913679" duration="6284000" />
       <workItem from="1591629072089" duration="859000" />
       <workItem from="1591653498855" duration="3334000" />
-      <workItem from="1591737230712" duration="5739000" />
+      <workItem from="1591737230712" duration="6067000" />
+      <workItem from="1591906844018" duration="736000" />
+      <workItem from="1592066328748" duration="5611000" />
+      <workItem from="1592084617108" duration="2094000" />
+      <workItem from="1592165897376" duration="2766000" />
     </task>
     <servers />
   </component>
@@ -170,10 +178,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1591654152691">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1592166773989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591654152691" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592166773989" />
     <state x="950" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590781447861">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -190,22 +198,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590516833346" />
-    <state width="1493" height="148" key="GridCell.Tab.0.bottom" timestamp="1591816662657">
+    <state width="723" height="232" key="GridCell.Tab.0.bottom" timestamp="1592168767771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591816662657" />
-    <state width="1493" height="148" key="GridCell.Tab.0.center" timestamp="1591816662657">
+    <state width="723" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592168767771" />
+    <state width="723" height="232" key="GridCell.Tab.0.center" timestamp="1592168767771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591816662657" />
-    <state width="1493" height="148" key="GridCell.Tab.0.left" timestamp="1591816662656">
+    <state width="723" height="232" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592168767771" />
+    <state width="723" height="232" key="GridCell.Tab.0.left" timestamp="1592168767771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591816662656" />
-    <state width="1493" height="148" key="GridCell.Tab.0.right" timestamp="1591816662657">
+    <state width="723" height="232" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592168767771" />
+    <state width="723" height="232" key="GridCell.Tab.0.right" timestamp="1592168767771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591816662657" />
+    <state width="723" height="232" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592168767771" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1591656841080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -222,14 +230,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591656841080" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1592166010387">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592166010387" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1588886668778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588886668778" />
-    <state x="849" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591737929434">
+    <state x="849" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1592165912697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="849" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591737929434" />
+    <state x="849" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592165912697" />
     <state x="399" y="109" width="738" height="606" key="find.popup" timestamp="1591467392297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -238,10 +250,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="41" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1591447886196" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1590496228010">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1592168719630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590496228010" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592168719630" />
     <state x="809" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1591814891063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
