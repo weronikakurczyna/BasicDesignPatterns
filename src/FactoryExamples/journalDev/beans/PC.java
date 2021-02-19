@@ -1,4 +1,4 @@
-package FactoryExamples.journalDev;
+package FactoryExamples.journalDev.beans;
 
 public class PC extends Computer {
     private String ram;
@@ -9,6 +9,7 @@ public class PC extends Computer {
         this.ram = ram;
         this.hdd = hdd;
         this.cpu = cpu;
+        System.out.println("PC created");
     }
 
     @Override
@@ -24,5 +25,14 @@ public class PC extends Computer {
     @Override
     public String getCPU() {
         return this.cpu;
+    }
+
+    @Override
+    public String toString() {
+        return "PC{" +
+                "ram='" + ram + '\'' +
+                ", hdd='" + hdd + '\'' +
+                ", cpu='" + cpu + '\'' +
+                '}';
     }
 }

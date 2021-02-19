@@ -1,4 +1,4 @@
-package FactoryExamples.journalDev;
+package FactoryExamples.journalDev.beans;
 
 public class Server extends Computer {
     private String ram;
@@ -9,6 +9,7 @@ public class Server extends Computer {
         this.ram = ram;
         this.hdd = hdd;
         this.cpu = cpu;
+        System.out.println("Server created");
     }
 
     @Override
